@@ -32,7 +32,7 @@ sudo ./setup.sh
 
 ## How It Works
 1. The script prompts for a **domain name** and **port**.
-2. Installs required packages (Nginx, Certbot, UFW, etc.).
+2. Installs required packages (Nginx, Certbot).
 3. Configures Nginx with the provided domain and port.
 4. Requests an SSL certificate from Let's Encrypt.
 5. Sets up a cron job for SSL certificate auto-renewal.
